@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Mini Message Board </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>Welcome to Mini Message Board</h1>
+  <ul>
+    <p><% messages.forEach(function(msg){ %>
+      <li>
+        <%= msg.user %>
+        <%= msg.text %>
+        <%= msg.added %>
+        <% }) %>
+      </li>
+    </p>
+  </ul>
+</body>
+
+</html>
