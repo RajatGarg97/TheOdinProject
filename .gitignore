@@ -3,3 +3,5 @@ Basic-info-site/package-lock.json
 Basic-info-site-Express/node_modules/
 skeletonWebsite/node_modules
 skeletonWebsite/express-locallibrary-tutorial/node_modules
+miniMessageBoard/node_modules/
+miniMessageBoard/package-lock.json
